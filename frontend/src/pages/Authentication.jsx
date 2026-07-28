@@ -44,7 +44,7 @@ const Authentication = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4">
-      <div className="w-full max-w-md bg-mist-800 rounded-2xl p-8 shadow-2xl border border-fuchsia-950">
+      <div className="w-full max-w-md bg-mist-900 rounded-2xl p-8 shadow-2xl border border-fuchsia-950">
         <h1 className="text-3xl font-bold text-center text-white mb-2">
           {isLogin ? "Welcome Back" : "Create Account"}
         </h1>
